@@ -18,6 +18,10 @@ const Navbar = () => {
       title: "Contact",
       path: "/contact",
     },
+    {
+      title: "Blog",
+      path: "/blog",
+    },
   ];
   return (
     <>
