@@ -1,26 +1,14 @@
-"use client"
+"use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 
 const Navbar = () => {
-    const pathName = usePathname()
+  const pathName = usePathname();
   const links = [
     {
-      title: "About",
-      path: "/about",
-    },
-    {
-      title: "Services",
-      path: "/services",
-    },
-    {
-      title: "Contact",
-      path: "/contact",
-    },
-    {
-      title: "Blog",
-      path: "/blog",
+      title: "posts",
+      path: "/posts",
     },
   ];
   return (
